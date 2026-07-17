@@ -1,0 +1,3 @@
+# Aplikasi ini dibangun sepenuhnya menggunakan Standard Library bawaan Python.
+# Tidak ada *third-party dependencies* yang perlu diinstall via pip.
+# Pastikan Anda menggunakan Python 3.6 atau yang lebih baru.
