@@ -56,6 +56,11 @@ class NetworkOptimizationFacade:
         else:
             logger.warning("Failed to collect initial latency metrics.\n")
 
+        self.print_banner("NETWORK HEALTH DIAGNOSTICS")
+        from diagnostics.network_diagnoser import NetworkDiagnoser
+        diagnoser = NetworkDiagnoser()
+        diagnoser.run_diagnostics()
+
         self.print_banner("INITIATING NETWORK OPTIMIZATION SEQUENCE")
 
         
